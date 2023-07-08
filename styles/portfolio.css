@@ -216,4 +216,23 @@ main section {
 
 .resume-container {
     display: flex;
+    gap: 40px;
+    margin-top: 90px;
+}
+
+.resume-item-institute {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
 }
