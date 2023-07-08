@@ -13,10 +13,17 @@ body {
     background: #FD6E0A;
     border: 0;
     color: white;
-    padding: 15px 35px;
-    font-size: 20px;
+    padding: 13px 20px;
+    font-size: 15px;
     font-weight: 700;
 }
+
+/* Header Styles */
+
+.header {
+    background-color: #FFF8F3;
+}
+
 
 /* Nav Related Styles */
 
@@ -24,6 +31,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .nav-title {
@@ -47,4 +55,16 @@ nav a {
     color: #474747;
     font-size: 20px;
     font-weight: 400;
+}
+
+.banner {
+    padding: 40px 35px 0px 220px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
