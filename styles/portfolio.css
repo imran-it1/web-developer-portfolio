@@ -106,6 +106,11 @@ nav a {
 
 /* Main section Style */
 
+
+main section {
+    margin-top: 120px;
+}
+
 /* About Section Styles */
 
 .about {
@@ -113,7 +118,7 @@ nav a {
     margin: 130px auto;
     padding: 130px;
     border-radius: 10px;
-    background: #faefe8;
+    background: #FFF8F3;
 }
 
 .section-title {
@@ -154,4 +159,61 @@ nav a {
     color: #2e2e2e;
     font-size: 20px;
     font-weight: 400;
+}
+
+
+/* Skill Part Style */
+
+.what-i-do {
+    max-width: 1100px;
+    margin: 130px auto;
+    padding: 130px;
+    border-radius: 10px;
+    border: 1px solid greenyellow;
+}
+
+#what-i-do-description {
+    padding: 30px 150px;
+}
+
+.do-section {
+    width: 1383px;
+    margin: auto;
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skill {
+    width: 205px;
+    height: 270px;
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+}
+
+/* Resume Section */
+
+.resume {
+    width: 1383px;
+    margin: 130px auto;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
 }
